@@ -45,7 +45,7 @@ const currencyData: Currency = {
 };
 
 //currencyData.name = "Gold"; - we cannot change values of a property we set to be read-only
-
+//we can never change the content of a value of a read only property
 currencyData.code = "GGG";
 
 // ----
